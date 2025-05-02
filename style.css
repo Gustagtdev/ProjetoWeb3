@@ -1,0 +1,150 @@
+#logo{
+    width: auto;
+    max-height: 80px;
+background-color: blue;
+
+}
+
+#logotipo{width: 80px;
+max-height: 80px;
+padding: 5px;}
+
+#menu{background-color: yellow;
+height: 20px;
+width: auto;
+display: flex;
+
+flex-direction:row;
+    align-items:center;
+    justify-content:flex-end;
+    gap: 50px;
+    padding: 25px;}
+
+.op{display: flex;
+  gap: 20px;
+  margin-right: 50px;
+    justify-content:space-between;}
+   
+a{ color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration: none;
+
+}
+#box{display: flex;
+width: auto;
+min-height: 100vh;
+    background-image: url("IMG_5751\ 1\ \(1\).png");
+    background-size: cover;        /* cobre toda a área */
+    background-position: center;   /* centraliza a imagem */
+    background-repeat: no-repeat;  /* evita repetição */
+    min-height: 100vh;             /* altura mínima = 100% da tela */
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+p{font-size: 35px;
+width: 500px;}
+
+button{
+    color: white;
+    font-size: 18px;
+    background-color: blue;
+    border-radius: 50px;
+    padding: 15px;
+    
+}
+
+@media (max-width: 768px) {
+    p {
+       font-size: 24px; /* Reduz o tamanho da fonte para dispositivos menores */
+       width: auto; /* Ajusta a largura do parágrafo */
+    }
+ 
+    #box {
+        margin: auto;
+       padding: 20px; /* Ajusta o padding */
+       height: auto; /* Ajusta a altura */
+    }
+ 
+    button {
+       font-size: 16px; /* Ajusta o tamanho da fonte do botão */
+       padding: 12px; /* Ajusta o padding do botão */
+    }
+ }
+
+
+ /* pagina quem somos*/
+
+
+ .card{display: flex;
+    gap: 20px;
+    margin: 50px;
+      justify-content:space-around;
+    align-items: center;
+    background-color: beige;
+    border-radius: 20px;
+    }    
+
+    .card2{display: flex;
+        gap: 20px;
+        margin: 50px;
+        
+          justify-content:space-around;
+        align-items:center;
+        background-color: beige;
+        border-radius: 20px;
+        flex-direction: row-reverse; 
+        }    
+
+      
+      .cardtext{
+font-size: 24px;
+
+      }
+
+    
+      
+      .whatsapp{
+        display: flex;
+        gap: 10px;
+        
+          margin: none;
+        align-items:center;
+       
+        border-radius: 20px;
+
+      }
+
+      p.tel{font-size: 20px;
+        margin: 0;}
+       
+        .contato {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 200px;
+            height: 200px;
+            margin-left: 120px;
+            padding: 20px;
+            text-align: left;
+          }
+
+          @media (max-width: 768px) {
+            #cardscontato {
+              flex-direction: column;
+              padding: 50px;
+              text-align: center;
+            }
+          
+            .imgctt {
+              margin-bottom: 20px;
+            }
+          
+            .contato {
+              width: 100%;
+            }
+          }
