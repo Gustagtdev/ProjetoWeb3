@@ -33,7 +33,7 @@ text-decoration: none;
 #box{display: flex;
 width: auto;
 min-height: 100vh;
-    background-image: url("IMG_5751\ 1\ \(1\).png");
+    background-image: url("Imagens/Fundo_Atletas.png");
     background-size: cover;        /* cobre toda a área */
     background-position: center;   /* centraliza a imagem */
     background-repeat: no-repeat;  /* evita repetição */
